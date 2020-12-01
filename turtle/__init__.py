@@ -38,6 +38,13 @@ import copy
 from torch.utils.data import DataLoader, TensorDataset, random_split
 from google.colab import drive
 
+import torchvision.transforms as transforms
+from torch.utils.data import DataLoader
+from torchvision.datasets import MNIST
+import numpy as np
+import matplotlib.pyplot as plt
+import torchvision.utils
+
 
 
 
